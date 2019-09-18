@@ -271,7 +271,36 @@ a p {
          align-content: center;
          padding-left: 180px;
      }
- 
+     
+     .section3 {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .section3a {
+         padding-bottom: 30px;
+     }
+
+     .section3b {
+         padding-bottom: 30px;
+     }
+
+     .middle-img {
+         width: 450px;
+     }
+
+     .section4 {
+         flex-direction: column;
+     }
+
+     .section4b {
+        padding-top: 30px;
+     }
+
+     .section4c {
+         padding-top: 30px;
+     }
 
      
  }
