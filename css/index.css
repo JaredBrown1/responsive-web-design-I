@@ -205,7 +205,7 @@ a p {
      display: flex;
      justify-content: space-around;
  }
-
+/*--------- vvvv TABLET PART vvvv ----------*/
  @media(max-width: 800px) {
     .section1 {
         display: flex;
@@ -246,7 +246,7 @@ a p {
         justify-content: space-around;
     }
  }
-
+/*--------- vvvv MOBILE PART vvvv ----------*/
  @media (max-width: 500px) {
 
     .section1 {
