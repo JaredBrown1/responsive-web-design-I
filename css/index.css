@@ -198,6 +198,14 @@ a p {
 	 list-style-type: circle; 
  }
 
+ .getstartedbutton {
+     border: 1px solid;
+     padding: 3px;
+     font-size: 20px;
+     display: flex;
+     justify-content: space-around;
+ }
+
  @media(max-width: 800px) {
     .section1 {
         display: flex;
@@ -213,6 +221,29 @@ a p {
     .section1b {
         padding-left: 330px;
         padding-bottom: 30px;
+    }
+
+    .section2 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .section3 {
+        padding-top: 40px;
+        border-top: 2px solid;
+    }
+
+    .section5 {
+        padding-top: 40px;
+        border-top: 2px solid;
+    }
+
+    .middle-img {
+        justify-content: space-around;
     }
  }
 
