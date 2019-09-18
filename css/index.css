@@ -254,11 +254,26 @@ a p {
         flex-direction: column-reverse;
         justify-content: space-between;
         padding-top: 50px;
+        
      } 
 
      .section1 a {
-         padding: 0px;
+         padding: 10px;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         border-top: 1px solid;
+         border-bottom: 1px solid;
      }
+
+     .section1b {
+         align-content: center;
+         padding-left: 180px;
+     }
+ 
+
+     
  }
 
 
