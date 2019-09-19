@@ -57,6 +57,10 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+body {
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -101,9 +105,9 @@ h1, h2, h3, h4, h5 {
 	 display: flex
  }
 
- .middle-img {
-	 display: flex;
-	 justify-content: space-around;
+ .middle-img img {
+     width: 100%;
+     text-align: center;
  }
 
  .section4 {
@@ -246,9 +250,7 @@ a p {
         border-top: 2px solid;
     }
 
-    .middle-img {
-        justify-content: space-around;
-    }
+    
  }
 /*--------- vvvv MOBILE PART vvvv ----------*/
  @media (max-width: 500px) {
@@ -290,10 +292,7 @@ a p {
          padding-bottom: 30px;
      }
 
-     .middle-img {
-         width: 450px;
-     }
-
+     
      .section4 {
          flex-direction: column;
      }
