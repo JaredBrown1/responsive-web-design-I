@@ -205,6 +205,10 @@ a p {
      display: flex;
      justify-content: space-around;
  }
+
+ .iod {
+     text-align: center;
+ }
 /*--------- vvvv TABLET PART vvvv ----------*/
  @media(max-width: 800px) {
     .section1 {
