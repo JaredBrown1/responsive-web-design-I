@@ -1,3 +1,311 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.section1 a {
+	color: gray;
+	padding: 50px;
+}
+
+.section2a a {
+	color: gray;
+	font-size: 30px;
+	border: 2px gray;
+}
+
+.section1 {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.section2 {
+	display: flex;
+	justify-content: space-around;
+}
+ .section2a {
+	 padding-top: 30px;
+	 font-size: 75px;
+
+ }
+ .section2b {
+	 border: 2px gray;
+ }
+
+ .section3 {
+
+	 padding: 20px;
+	 display: flex
+ }
+
+ .middle-img img {
+     width: 100%;
+     text-align: center;
+ }
+
+ .section4 {
+	 display: flex;
+	 padding: 20px; 
+ }
+
+ .section5 {
+	 padding: 20px;
+ }
+
+ footer {
+	 text-align: center;
+ }
+
+ nav a{
+	 color: gray;
+ }
+
+ .nav-bar {
+	 padding-top: 30px;
+	 padding-bottom: 20px;
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+ .img2 {
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+ .programs {
+	 display: flex;
+	 margin: 1%;
+	 flex-wrap: wrap;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 border-bottom: solid 1px;
+ }
+
+ .program-description {
+	 display: flex;
+	 width: 500px;
+	 height: 200px;
+	 flex-wrap: wrap;
+	 padding: 10px;
+	 background: lightgray;
+	 margin: 1%;
+	 border: solid 2px;	 
+
+ }
+
+ .learn-more {
+	 border: solid 1px;
+	 border-radius: 50%;
+	 width: 100px;
+	 background-color: white;
+	 padding-top: 6px;
+	 text-align: center;
+ }
+
+
+ .services {
+	 display: flex;
+	 flex-direction: column;
+	 padding: 20px;
+	 border-bottom: solid 1px;
+ }
+
+ .facts-and-img {
+	 display: flex;
+	 padding-top: 20px;
+	 padding-bottom: 30px;
+	 justify-content: space-around;
+ }
+
+ .facts {
+	 width: 500px;
+ }
+
+a p {
+	border: 1px black;
+}
+
+ .footer {
+	 text-align: center;
+	 color: gray;
+	 padding: 20px;
+ }
+
+ ul {
+	 list-style-type: circle; 
+ }
+
+ .getstartedbutton {
+     border: 1px solid;
+     padding: 3px;
+     font-size: 20px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .iod {
+     text-align: center;
+ }
+/*--------- vvvv TABLET PART vvvv ----------*/
+ @media(max-width: 800px) {
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around; 
+    }
+
+    .section1 a {
+        padding: 35px;
+        
+    }
+
+    .section1b {
+        padding-left: 330px;
+        padding-bottom: 30px;
+    }
+
+    .section2 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .section3 {
+        padding-top: 40px;
+        border-top: 2px solid;
+    }
+
+    .section5 {
+        padding-top: 40px;
+        border-top: 2px solid;
+    }
+
+    
+ }
+/*--------- vvvv MOBILE PART vvvv ----------*/
+ @media (max-width: 500px) {
+
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding-top: 50px;
+        
+     } 
+
+     .section1 a {
+         padding: 10px;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         border-top: 1px solid;
+         border-bottom: 1px solid;
+     }
+
+     .section1b {
+         align-content: center;
+         padding-left: 180px;
+     }
+     
+     .section3 {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .section3a {
+         padding-bottom: 30px;
+     }
+
+     .section3b {
+         padding-bottom: 30px;
+     }
+
+     
+     .section4 {
+         flex-direction: column;
+     }
+
+     .section4b {
+        padding-top: 30px;
+     }
+
+     .section4c {
+         padding-top: 30px;
+     }
+
+     
+ }
 
 
